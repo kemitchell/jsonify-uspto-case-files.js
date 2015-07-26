@@ -33,7 +33,10 @@ function childrenToProperties(object) {
             if (!hasGrandchildren) {
               object[name] = child['$text'] }
             else {
-              object[name] = child } } }) }
+              object[name] = child } }
+          else {
+            childrenToProperties(children)
+            object.children = children }}) }
       Object.keys(object)
         .forEach(function(key) {
           var value = object[key]
