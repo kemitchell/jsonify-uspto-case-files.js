@@ -1,0 +1,13 @@
+{
+  "name": "jsonify-uspto-case-files",
+  "version": "0.0.0",
+  "description": "convert USPTO case file archive XML to JSON",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com)",
+  "license": "MIT",
+  "repository": "kemitchell/jsonify-uspto-case-files.js",
+  "dependencies": {
+    "camelize": "~1.0.0",
+    "node-expat": "~2.3.8",
+    "xml-object-stream": "~0.3.0"
+  }
+}
